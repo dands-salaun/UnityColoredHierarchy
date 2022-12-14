@@ -16,6 +16,7 @@ public class ColoredHeaderObject : MonoBehaviour
     private void SetPresetSettings()
     {
         settings = preset.GetHeaderPreset().settings;
+        gameObject.name = preset.GetHeaderPreset().namePreset;
     }
 
     public string GetName()
