@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ColorHierarchyMenu : EditorWindow
 {
-    [MenuItem("GameObject/Color Header", false, 0)]
+    [MenuItem("GameObject/Color Header Object", false, 0)]
     static void CreateColorHeader(MenuCommand menuCommand)
     {
         GameObject obj = new GameObject("Header");
